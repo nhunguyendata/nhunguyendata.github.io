@@ -62,6 +62,17 @@ font-weight: 700;}
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .img-hinh{padding: 0 30px;}
+  
+  .front-img{
+    border-radius:30px;
+   
+  }
+  .front-fig{
+    border-radius:30px;
+    box-shadow: 2px 2px 4px #ccc;
+    
+  }
   @media screen and (max-width: 1399px)
 {
 
