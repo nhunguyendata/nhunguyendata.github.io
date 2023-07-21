@@ -1,5 +1,11 @@
 @charset "UTF-8";
-
+h1{font-size: 34px;}
+h2{font-size: 30.5px;}
+h3{font-size: 22px;}
+h4{font-size: 17.5px;}
+h5{font-size: 14px;}
+h6{font-size: 11px;}
+p{font-size: 13px;}
 .btn-secondary{
     width:120px;
     height:auto;
@@ -29,6 +35,14 @@
     justify-content: center;
     
   }
+  .noidung h1{
+    font-size:36px;
+  }
+  .noidung h3{color: #fcd547;
+  font-size:36px;
+font-weight: 700;}
+.about p{font-size:20px;}
+
   .bg-primary{
     background-color:rgb(255,222,93);
     width: auto;
@@ -38,21 +52,6 @@
     border-radius: 20px;
   }
   .d-flex{display: flex;}
-  /* .bg-secondary{
-    position: absolute;
-    background-color:yellowgreen;opacity: 1;
-    
-    calc(100%-30px);
-    margin:10px 10px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-    
-    border-radius: 12px;
-  } */
   p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -63,3 +62,34 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+  @media screen and (max-width: 1399px)
+{
+
+}
+@media screen and (max-width: 1199px)
+{
+
+}
+@media screen and (max-width: 992px)
+{
+
+}
+@media screen and (max-width: 767px)
+{
+  .noidung h1{
+    font-size: 26px;
+  }
+  .noidung h2{
+    font-size: 22px;
+  }
+  .noidung h3{color: #fcd547;
+  font-size:30px;
+font-weight: 700;}
+.about h1{font-size:26px;}
+.about p{font-size:16px;}
+.bg-primary span{font-size:24p;}
+.bg-primary p{font-size:20px;}
+
+}
+
+
