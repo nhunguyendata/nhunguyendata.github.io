@@ -10,7 +10,8 @@ p{font-size: 13px;}
     width:120px;
     height:auto;
       background-color:rgb(252, 213, 71); 
-      color:white;padding: 5px;
+      color:#eddece;
+      padding: 5px;
       margin:1px auto;
       padding: 1px auto;
     font-size:large;
@@ -25,6 +26,7 @@ p{font-size: 13px;}
     
       
   }
+  .text-light{color:#eddecd;}
   .btn-secondary:hover{ background-color:rgb(255,222,93);scale: 1.1;opacity: 0.8;}
   h1{font-size: 36px;}
   .noidung{
